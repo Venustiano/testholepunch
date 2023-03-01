@@ -4,6 +4,7 @@ FROM venustiano/binder:4.2.0
 ARG NB_USER
 ARG NB_UID
 
+RUN rm install.R
 
 USER ${NB_USER}
 
